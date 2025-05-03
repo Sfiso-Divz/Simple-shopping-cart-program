@@ -29,7 +29,6 @@ function GlobalState({ children }) {
   }
 
   function handleAddToCart(getProductDetails){
-    console.log(getProductDetails)
     
     let copyExistingCartItems = [...cart];
     const findIndexOfCurrentItem = copyExistingCartItems.findIndex(
